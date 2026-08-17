@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "12.0"
+  version: "12.2.2"
 
 package:
   name: pyobjc-framework-coreaudio
@@ -9,10 +9,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/p/pyobjc-framework-CoreAudio/pyobjc_framework_coreaudio-${{ version }}.tar.gz
-  sha256: 19741907d2d80a658d3721140eb998061007955323b427afca67eda0e2ad3215
+  sha256: 880214f7328d6502a0c60ee744fa1eabe77a0d0c9ae276009453b69474eacf38
 
 build:
-  number: 1
+  number: 0
   skip: not osx
   script:
     content:
